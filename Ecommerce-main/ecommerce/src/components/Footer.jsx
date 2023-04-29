@@ -1,8 +1,9 @@
 import React from "react";
+import footerimage from "../assets/images/Footer-Background.png";
 
 function Footer() {
   const footerStyle = {
-    backgroundImage: "url(src/assets/images/Footer-Background.jpg)",
+    backgroundImage: `url(${footerimage})`,
   };
 
   return (
