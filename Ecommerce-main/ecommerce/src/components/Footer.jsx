@@ -3,19 +3,12 @@ import React from "react";
 function Footer() {
   const footerStyle = {
     backgroundImage: "url(src/assets/images/Footer-Background.jpg)",
-    // backgroundSize: "cover",
-    // backgroundPosition: "center",
-    // height: "100px",
-    //display: "flex",
-    // alignItems: "center",
-    //  justifyContent: "",
-    // color: "white",
   };
 
   return (
     <footer style={footerStyle}>
-      <div className="h-screen text-white">
-        <div className=" h-[50%] flex items-center justify-center font-semibold text-[50px]">
+      <div className="h-screen ">
+        <div className=" h-[50%] flex items-center justify-center font-semibold text-[50px] text-white">
           <h2>We are a traditional Habeshan Clothing Store</h2>
         </div>
         <div className="h-[50%] bg-slate-800 text-white flex items-center justify-center space-x-40 text-xl">
